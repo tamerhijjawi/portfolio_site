@@ -1,0 +1,119 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+#content {
+  	margin-bottom: 80px;
+}
+
+/*************************
+*******Header******
+**************************/
+nav.navbar {
+	background-color: #fff;
+	border: 0;
+  	border-radius: 0;
+}
+
+.navbar .container-fluid .navbar-header .navbar-brand {
+	color: #686868;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 70px;
+}
+
+.navbar .container-fluid .navbar-header .navbar-brand small {
+	display: block;
+	font-size: 0.5em;
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+
+.navbar .navbar-nav > li > a {
+	color:#686868;
+	font-weight: bold;
+	padding: 25px;
+	font-size: 16px;
+}
+
+.navbar .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #000;
+}
+
+.navbar .navbar-nav>.active>a {
+	background-color: #fff;
+	color: #000;
+}
+
+.navbar .navbar-nav>.active>a:hover {
+	background-color: #fff;
+}
+
+/*************************
+*******content******
+**************************/
+.section-title {
+	color: #686868;
+}
+
+.img-responsive{
+	margin: 0 auto;
+}
+
+.about-img{
+	max-height: 400px;
+}
+
+.portfolio-img{
+		height: 235px;
+}
+
+.skills-list{
+	border: 2px solid;
+	border-color: #686868;
+	padding: 5px;
+	display: inline-block;
+	margin: 0px 0px 20px 0px;
+}
+
+.segment{
+	margin-bottom: 40px;
+	padding: 15px;
+	border-color: #686868;
+	border: 2px solid;
+}
+
+.segment-title{
+	font-size: 	20px;
+}
+/*************************
+*******Footer******
+**************************/
+#sticky-footer{
+	position: absolute;
+	bottom: 0;
+	background-color: #686868;
+	height:60px;
+	width: 100%;
+}
+
+.footer-text{
+	color: #fff;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%); 
+}
+
+.fa-linkedin{
+	color: #fff;
+}
+
+.fa-linkedin:hover{
+	color: #b3b3b3;
+}
